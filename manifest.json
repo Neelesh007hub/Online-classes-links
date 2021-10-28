@@ -1,0 +1,23 @@
+{
+    "manifest_version":2,
+    "name":"Online classes links",
+    "description": "This extension is used to store the online classes links of subject",
+    "version":"1.0",
+    "icons":{"128":"128x128.png" },
+    "browser_action":{
+        "default_icon":"128x128.png",
+        "default_popup":"popup.html"
+    },
+
+    
+    "permissions": [
+
+      "activeTab",
+      "storage" ,
+       "unlimitedStorage"
+     
+       
+      
+]
+
+}
